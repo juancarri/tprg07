@@ -38,7 +38,7 @@ public class Main {
         String total="";
         for (String nom : s) {
             //Una forma de recorrer
-          total = total + " " + nom; 
+          total = total + "\n " + nom; 
           
         }
         JOptionPane.showMessageDialog(null,total);
