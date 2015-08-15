@@ -3,11 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+import java.util.*;
 /**
  *
  * @author Juan
  */
 public class NewClass {
+    String hola;
+    
+    int dia;
+    Date dsa;
     
 }
