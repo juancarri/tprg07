@@ -9,6 +9,6 @@ package logica;
  *
  * @author Juan
  */
-public class ContoladorProvedor {
-    
+public class Estado {
+   enum estado{registrada, cancelada, pagada, facturada};
 }
