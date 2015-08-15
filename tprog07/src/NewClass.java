@@ -13,5 +13,6 @@ public class NewClass {
     
     int dia;
     Date dsa;
+    int te_gustan_las_barras_bajas=0;
     
 }
