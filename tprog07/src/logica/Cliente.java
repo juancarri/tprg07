@@ -15,7 +15,7 @@ import java.util.List;
  * @author matias.heredia
  */
 public class Cliente extends Usuario{
-    private List<Usuario> Servicios;
+    private List<Servicio> Servicios;
     
     public Cliente(String nickname, String nombre, String apellido,String email, Date fechaNac, String url){
         super(nickname,nombre,apellido,email,fechaNac,url);
