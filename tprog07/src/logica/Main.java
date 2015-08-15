@@ -6,6 +6,8 @@
 
 package logica;
 import java.util.*;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 /**
  *
  * @author matias.heredia
@@ -18,9 +20,22 @@ public class Main {
     public static void main(String[] args) {
         
         // TODO code application logic here
-        List<Usuario> s;
+        List<String> s;
         s = Collections.emptyList();
+        String x =JOptionPane.showInputDialog("Compila y este es el Main.java lo ingreses se carga en una Lista");
+        //s.add(x);
         
+       /* Iterator<String> itera = s.iterator();
+        while (itera.hasNext()) {
+            //Una forma de recorrer          
+          //  System.out.println(itera.next());           
+        }
+        for (String nombre : s) {
+            //Una forma de recorrer
+            
+           // System.out.println(nombre);
+        }
+        */
     }
     
 }
