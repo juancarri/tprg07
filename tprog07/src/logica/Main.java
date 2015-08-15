@@ -6,6 +6,7 @@
 
 package logica;
 import java.util.*;
+import javafx.scene.control.Alert;
 import javax.swing.*;
 /**
  *
@@ -26,17 +27,21 @@ public class Main {
             s.add(x);
         }while ( !x.equalsIgnoreCase("JUAN") ) ;
         Iterator<String> itera = s.iterator();
+        JOptionPane.showMessageDialog(null,"lista con iterador:");
+        
         while (itera.hasNext()) {
             //Una forma de recorrer    
-           System.out.println("lista con iterador:"); 
-           System.out.println(itera.next());           
+            JOptionPane.showMessageDialog(null,itera.next());
+                    
         }
+        JOptionPane.showMessageDialog(null,"Lista ForEach:");
+        String total="";
         for (String nom : s) {
             //Una forma de recorrer
-           System.out.println("Lista ForEach:"); 
-           System.out.println(nom);
+          total = total + " " + nom; 
+          
         }
-        
+        JOptionPane.showMessageDialog(null,total);
     }
     
 }
