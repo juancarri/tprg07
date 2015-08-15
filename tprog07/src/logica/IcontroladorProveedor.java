@@ -9,6 +9,6 @@ package logica;
  *
  * @author Juan
  */
-public class ManejadorProvedor {
+public interface IcontroladorProveedor {
     
 }
