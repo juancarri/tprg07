@@ -6,8 +6,7 @@
 
 package logica;
 import java.util.*;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import javax.swing.*;
 /**
  *
  * @author matias.heredia
@@ -20,22 +19,24 @@ public class Main {
     public static void main(String[] args) {
         
         // TODO code application logic here
-        List<String> s;
-        s = Collections.emptyList();
-        String x =JOptionPane.showInputDialog("Compila y este es el Main.java lo ingreses se carga en una Lista");
-        //s.add(x);
-        
-       /* Iterator<String> itera = s.iterator();
+        List<String> s = new ArrayList<String>();
+        String x;
+        do{
+            x =JOptionPane.showInputDialog("Compila y este es el Main.java lo que ingreses se carga en una Lista ingresa Juan para Salir");
+            s.add(x);
+        }while ( !x.equalsIgnoreCase("JUAN") ) ;
+        Iterator<String> itera = s.iterator();
         while (itera.hasNext()) {
-            //Una forma de recorrer          
-          //  System.out.println(itera.next());           
+            //Una forma de recorrer    
+           System.out.println("lista con iterador:"); 
+           System.out.println(itera.next());           
         }
-        for (String nombre : s) {
+        for (String nom : s) {
             //Una forma de recorrer
-            
-           // System.out.println(nombre);
+           System.out.println("Lista ForEach:"); 
+           System.out.println(nom);
         }
-        */
+        
     }
     
 }
