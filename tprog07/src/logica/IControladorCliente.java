@@ -5,10 +5,20 @@
  */
 package logica;
 
+import java.util.Date;
+import java.util.Set;
 /**
  *
  * @author Juan
  */
 public interface IControladorCliente {
-    
+    public void actualizarEstadoReserva(String nomReserva, String nomCliente);
+    public void reservarPromocion(String proveedor, String promo, int cantidad, Date fechaIni, Date fechaFin);
+    public void altaCliente(String nick, String nombre, String apellido, String email, Date fechaNac, String imagen);
+    public Set<DataCliente> listarClientes();
+    public void reservarServicio(String proveedor, String promo, int cantidad, Date fechaIni, Date fechaFin);
+    public void cancelarReserva(String nomCliente, int id);
+    public Set<DataReserva> listarReservasXCliente(String nomCliente);
+    public DataInfoReserva verInfoReserva(int id);
+    public DataInfoCliente verInfoCliente(String nomCliente);
 }
