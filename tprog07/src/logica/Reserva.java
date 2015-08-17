@@ -10,5 +10,5 @@ package logica;
  * @author giovani
  */
 public class Reserva {
-    
+    as
 }
