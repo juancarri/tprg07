@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package logica;
+import java.util.Set;
 
 /**
  *
@@ -11,6 +12,7 @@ package logica;
  */
 public class Pais {
     private String nombre;
+    private Set<Ciudad> ciudades;
     
     public Pais(String nombre){
         this.nombre = nombre;

@@ -11,6 +11,8 @@ package logica;
  */
 public class ItemReserva {
     private int cantidad;
+    private Servicio servicio;
+    private Promicion promocion;
     
     public ItemReserva(int cantidad){
         this.cantidad = cantidad;
@@ -21,5 +23,7 @@ public class ItemReserva {
     public void setCantidad(int cantidad){
         this.cantidad = cantidad;
     }
-    public getDataItem():DataItem
+    public DataItem getDataItem(){
+        return null;
+    }
 }
