@@ -12,7 +12,7 @@ package logica;
 public class ItemReserva {
     private int cantidad;
     private Servicio servicio;
-    private Promicion promocion;
+    private Promocion promocion;
     
     public ItemReserva(int cantidad){
         this.cantidad = cantidad;
