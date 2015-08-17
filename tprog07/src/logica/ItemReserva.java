@@ -10,5 +10,16 @@ package logica;
  * @author giovani
  */
 public class ItemReserva {
+    private int cantidad;
     
+    public ItemReserva(int cantidad){
+        this.cantidad = cantidad;
+    }
+    public int getCantidad(){
+        return cantidad;
+    }
+    public void setCantidad(int cantidad){
+        this.cantidad = cantidad;
+    }
+    public getDataItem():DataItem
 }
