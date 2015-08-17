@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package logica;
-
 /**
  *
  * @author Juan
  */
+
+
 public class Categoria {
-    
+    private
+            String nombre;
 }
