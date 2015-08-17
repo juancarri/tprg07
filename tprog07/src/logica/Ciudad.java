@@ -10,5 +10,8 @@ package logica;
  * @author giovani
  */
 public class Ciudad {
+    private
+            String nombre;
+            String hijo;
     
 }
