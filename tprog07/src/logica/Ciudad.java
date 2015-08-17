@@ -12,5 +12,6 @@ package logica;
 public class Ciudad {
     private
             String nombre;
+            String hijo;
     
 }
