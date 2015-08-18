@@ -6,7 +6,6 @@
 
 package logica;
 import java.util.*;
-import javafx.scene.control.Alert;
 import javax.swing.*;
 /**
  *
@@ -19,8 +18,8 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        // TODO code application logic here
-        List<String> s = new ArrayList<String>();
+        List<String> s;
+        s = new ArrayList<>();
         String x;
         do{
             x =JOptionPane.showInputDialog("Compila y este es el Main.java lo que ingreses se carga en una Lista ingresa Juan para Salir");
