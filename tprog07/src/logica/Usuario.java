@@ -17,52 +17,63 @@ public class Usuario {
     private String email  ;
     private Date fechaNac;
     private String imagen;
-    
-    
-    public Usuario(String nickname, String nombre, String apellido,String email, Date fechaNac, String url){
-        this.nickname= nickname;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Date getFechaNac() {
+        return fechaNac;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setFechaNac(Date fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
+    public Usuario(String nombre, String nickname, String apellido, String email, Date fechaNac, String imagen) {
+        this.nombre = nombre;
+        this.nickname = nickname;
         this.apellido = apellido;
         this.email = email;
         this.fechaNac = fechaNac;
-        this.imagen=url;
-     }
-    public void set_nombre(String nom){
-        this.nombre = nom;
-    }
-    public void set_nickname(String nom){
-        this.nickname= nom;
-    }
-    public void set_apellido(String nom){
-        this.apellido = nom;
-    }
-    public void set_email(String nom){
-        this.email =nom;
-    }
-    public void set_fechanac(Date fec){
-        this.fechaNac = fec;
-    }
-    public void set_imagen(String url){
-        this.imagen=url;
+        this.imagen = imagen;
     }
     
-    public String get_nombre(String nom){
-        return this.nombre = nom;
-    }
-    public String get_nickname(String nom){
-        return this.nickname= nom;
-    }
-    public String get_apellido(String nom){
-        return this.apellido = nom;
-    }
-    public String get_email(String nom){
-        return this.email =nom;
-    }
-    public Date get_fechanac(Date fec){
-        return this.fechaNac = fec;
-    }
-    public String get_imagen(String url){
-        return this.imagen=url;
-    }
     
 }

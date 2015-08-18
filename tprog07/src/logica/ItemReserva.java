@@ -23,7 +23,7 @@ public class ItemReserva {
     public void setCantidad(int cantidad){
         this.cantidad = cantidad;
     }
-    public DataItem getDataItem(){
+    public DataItemReserva getDataItem(){
         return null;
     }
 }
