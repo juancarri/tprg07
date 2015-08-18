@@ -6,6 +6,7 @@
 package logica;
 
 import java.util.Date;
+import java.util.Set;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Reserva {
     private Date fechaFin;
     private float precio;
     private Estado estado;
+    private Set<ItemReserva> item;
     
     public Reserva(int id, Date fechaCreacion, Date fechaInicio, Date fechaFin, float precio, Estado estado){
         this.id = id;
